@@ -1,0 +1,26 @@
+
+
+.listDiv{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+}
+.leftImg{
+    width: 100px;
+    height: 100px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+}
+.spanDiv{
+    position: relative;
+    width: 70%;
+    margin: 10px;
+}
+.sourceSpan{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: .8em;
+    color: gray;
+}

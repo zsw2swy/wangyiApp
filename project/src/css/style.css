@@ -1,0 +1,112 @@
+
+@media all and (max-width: 480px){
+
+    .topCarouselImg{
+        height: 18rem;
+        width: 100%;
+    }
+}
+@media all and (min-width: 480px){
+    .topCarouselImg{
+        height: 24rem;
+        width: 100%;
+    }
+    /*.view-container{*/
+         /*width: 48rem;*/
+     /*}*/
+
+}
+html{
+    font-size: 62.5%;
+}
+.topCarousel{
+    position: relative;
+    /*width: calc(100% + 20px);*/
+    width: 100%;
+
+}
+.topCarousel .slider-pager{
+    text-align: right;
+    height: 3rem;
+}
+
+.topCarousel .slider-pager-page{
+    width: .1rem;
+}
+.topCarousel .ion-record{
+    position: relative;
+    bottom: -2rem;
+    right: 2rem;
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.slideBottomDiv{
+    position: absolute;
+    padding-left: 1.5rem;
+    bottom: .6rem;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    height: 3rem;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+}
+.popup-buttons{
+    border-top: solid 1px #d1d3d6;
+    padding: 0;
+    min-height: 0;
+}
+
+.popup-container .popup{
+    width: 300px;
+    border-radius: 6px;
+}
+.button.button-dark.button-clear{
+    border-right: solid 1px #d1d3d6;
+}
+.listDiv{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    /*left: 0;*/
+    font-size: .8em;
+    /*padding-left: 1px;*/
+    padding: 1px;
+
+}
+.leftImg{
+    width: 10rem;
+    height: 10rem;
+    padding: 1px 1px 1px 1px;
+    border-radius: 5px;
+}
+.spanDiv{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.sourceSpan{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: .5em;
+    color: gray;
+}
+#xiaLa{
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+
+    display: none;
+}
+/*.bt{*/
+    /*z-index: 999;*/
+    /*position: absolute;*/
+    /*!*bottom:40px;*!*/
+    /*color: white;*/
+    /*line-height: 80px;*/
+/*}*/

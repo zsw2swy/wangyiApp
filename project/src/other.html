@@ -1,0 +1,21 @@
+<ion-view>
+<ion-header-bar class="bar bar-header"><img  class="title" src="images/zhibo.png" alt=""></ion-header-bar>
+
+    <ion-content>
+        <mg-slide-box source-array="live.slideSource" auto-play="true" slide-interval="1000"  does-continue="true" show-pager="true"  ></mg-slide-box>
+
+          预告:<div class="animated fadeInUp infinite 2s" >{{live.interSpan}}</div>
+
+        <div ng-repeat="item in live. live_review1" >
+            <span class="bt">{{item.roomName}}</span>
+            <span><img ng-src="{{item.image}}" style="height: 180px;width: 375px" ></span>
+        </div>
+        <!--<ion-list ng-repeat="item in live. live_review1">-->
+            <!--&lt;!&ndash;<ion-item  style="background: url("{{item.image}}")"></ion-item>&ndash;&gt;-->
+            <!--<span>{{item.title}}</span>-->
+        <!--</ion-list>-->
+
+
+    </ion-content>
+
+</ion-view>

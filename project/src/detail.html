@@ -1,0 +1,24 @@
+<ion-view >
+
+
+    <div class="bar bar-header  bar-royal  bar-positive">
+        <button class="button ion-arrow-left-c" ng-click="goTohome()"></button>
+        <h1 class="title">详情</h1>
+        <button class="button ion-heart" ng-click="showPopup ()"></button>
+    </div>
+    <ion-content >
+
+
+        <!--<button class="backBtn" ng-click="newsSummary.goBackView()">返回</button>-->
+
+        <ion-item  ng-style="yj">
+        <br><br>
+            <h3>{{newsSummary.title}}</h3>
+        <span></span>
+        <div ng-bind-html="newsSummary.body"></div>
+        </ion-item>
+    </ion-content>
+    <div class="bar bar-footer bar-balanced">
+        <div class="title" ng-click="changeBackGroundColor()">夜间模式</div>
+    </div>
+</ion-view>
